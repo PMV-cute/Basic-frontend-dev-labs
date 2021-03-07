@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>Форма Ласкин М.В.</title>
+ </head>
+ <body>
+
+ <form action="url(action.php)" enctype="text/plain" style="width: 900px;">
+    <fieldset>
+    <div>Identification Number:<br>
+    <input autofocus type="number" style="min-width: 150px;">
+    </div>
+    <br>
+    <div> Legal name:<br>
+        <input type="text" size="120">
+    </div>
+    <br>
+    <div> Adress 1:<br>
+        <input type="text" size="120">
+    </div>
+    <br>
+    <div> Adress 2:<br>
+        <input type="text" size="120">
+    </div>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <td>City:</td>
+                <td>State:</td>
+                <td>Zip:</td>
+                <td>Country:</td></tr>
+            <tr>
+                <td><input type="text" size="29"></td>
+                <td><input type="text" size="27"></td>
+                <td><input type="text" size="37"></td>
+                <td><select name="City" style="min-width: 110px;">
+                    <option selected value="1">Poland</option> 
+                    <option value="2">USA</option>
+                    <option value="3">England</option>
+                    <option value="4">Brazil</option>   
+                </select></td></tr>
+            
+            <tr>
+                <td>Phone:</td><td>Email:</td><td></td><td></td>
+            </tr>
+            <tr>
+                <td><input type="text" size="29"></td> <td colspan="3"><input type="email" size="86"></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div style="text-align: right;">
+        <input type="reset" value="Reset">
+        <input style="background: rgb(42, 195, 223)" type="submit" value="Submit"> 
+    </div>
+    </fieldset>
+</form>
+</body>
+</html>
