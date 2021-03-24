@@ -1,0 +1,122 @@
+div.back1 {
+    
+    width: 1625px;
+    height: 2395px;
+    margin: 132px 0px 0px 0px;
+    background: linear-gradient(0deg, #5F7AD3, #5F7AD3);
+    border: 0px double #000;
+}
+div.back2 {
+    max-width: 1300px;
+    height: 2195px;
+    position: relative;
+    margin: 0px 0 0 calc(50% - 1300px/2);
+    top: 100px;
+    background: #FFFFFF;
+    border: 0px double #000;
+}
+div.head {
+    width: 1251px;
+    height: 80px;
+    margin:0 0 0 20px ;
+    border: 0px double #000;
+}
+div.grid1 {
+    display: grid; /* Сетчатая разметка блоков */
+    grid-template-columns: 287px 252px 252px 252px 252px; /* Размеры блоков в строке */
+    grid-column-gap: 4px; /* Отступы между блоками в строке */
+    width: 1300px;
+    height: 368px;
+    overflow: hidden;  /* Обрезка всего за границами блока*/
+    border: 0px double #000;
+}
+div.grid2 {
+    display: grid; /* Сетчатая разметка блоков */
+    grid-template-columns: 542px 723.11px; /* Размеры блоков в строке */
+    grid-column-gap: 0px; /* Отступы между блоками в строке */
+    width: 1300px;
+    height: 409px;
+    overflow: hidden;  /* Обрезка всего за границами блока*/
+    margin-top: 4px;
+    border: 0px double #000;
+}
+div.grid3 {
+    display: grid; /* Сетчатая разметка блоков */
+    grid-template-columns: 446px 432px 422px; /* Размеры блоков в строке */
+    grid-column-gap: 0px; /* Отступы между блоками в строке */
+    width: 1300px;
+    overflow: hidden;  /* Обрезка всего за границами блока*/
+    margin-top: 67px;
+    border: 0px double #000;
+}
+div.grid4 {
+    display: grid; /* Сетчатая разметка блоков */
+    grid-template-columns: 446px 432px 422px; /* Размеры блоков в строке */
+    grid-column-gap: 0px; /* Отступы между блоками в строке */
+    width: 1300px;
+    height: 346px;
+    overflow: hidden;  /* Обрезка всего за границами блока*/
+    margin-top: 66px;
+    border: 0px double #000;
+}
+div.grid5 {
+    display: grid; /* Сетчатая разметка блоков */
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px; /* Размеры блоков в строке */
+    grid-column-gap: 2px; /* Отступы между блоками в строке */
+    width: 1284px;
+    overflow: hidden;  /* Обрезка всего за границами блока*/
+    margin: 64px 0 17px 16px;
+    border: 0px double #000;
+}
+.grid6 {
+        display: grid;
+    }
+    .items {
+        grid-template-columns: 422px 229px 633px;
+        grid-column-gap: 0px; 
+        overflow: hidden;
+        margin: 66px 0 0px 16px;
+        width: 1284px;
+        height: 129px;
+        border: 0px double #000;
+    }
+    .items div:nth-child(2) {
+        display: grid;
+        grid-template-rows: 54px 54px;
+        grid-template-columns: 54px 54px 54px;
+        grid-column-gap: 15px;
+        grid-row-gap: 14px;
+    }
+    .items div:nth-child(3) {
+        display: grid;
+        grid-template-rows: 63px 63px;
+        grid-template-columns: 63px 63px 63px;
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+    }
+.grid7 {
+    display: grid;
+    grid-template-columns: 211px 202px;
+    grid-template-rows: 327px;
+    grid-column-gap: 129px;
+}    
+.grid8 {
+    display: grid;
+    grid-template-columns: 118px 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px;
+    grid-column-gap: 4px;
+}
+div.flex1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+div.flex2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+}
+div.flex3 {
+    display: flex;
+    flex-direction: column;
+}
